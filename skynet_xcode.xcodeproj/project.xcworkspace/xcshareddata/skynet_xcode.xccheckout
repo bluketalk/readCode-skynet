@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>921F3A16-6166-46BC-94C2-423581243624</string>
+	<key>IDESourceControlProjectName</key>
+	<string>skynet_xcode</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9D6EC637ADC0CE122CAD43AC1EF4C6DDAD8654CC</key>
+		<string>https://github.com/ijustgoon/readCode-skynet.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>skynet_xcode.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9D6EC637ADC0CE122CAD43AC1EF4C6DDAD8654CC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ijustgoon/readCode-skynet.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9D6EC637ADC0CE122CAD43AC1EF4C6DDAD8654CC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9D6EC637ADC0CE122CAD43AC1EF4C6DDAD8654CC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>readCode-skynet</string>
+		</dict>
+	</array>
+</dict>
+</plist>
