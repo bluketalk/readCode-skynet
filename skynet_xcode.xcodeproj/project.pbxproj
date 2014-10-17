@@ -475,51 +475,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXLegacyTarget section */
-		5A14609817E16C7C00826B74 /* Make */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "";
-			buildConfigurationList = 5A14609917E16C7C00826B74 /* Build configuration list for PBXLegacyTarget "Make" */;
-			buildPhases = (
-			);
-			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = "/work/code/skynet_xcode/skynet-master";
-			dependencies = (
-			);
-			name = Make;
-			passBuildSettingsInEnvironment = 1;
-			productName = Make;
-		};
-		5AD8F5E917E1890F00EB9EE1 /* run_config */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = config;
-			buildConfigurationList = 5AD8F5EA17E1890F00EB9EE1 /* Build configuration list for PBXLegacyTarget "run_config" */;
-			buildPhases = (
-			);
-			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = "$(PROJECT)";
-			dependencies = (
-			);
-			name = run_config;
-			passBuildSettingsInEnvironment = 1;
-			productName = run_config;
-		};
-		5AD8F5ED17E1896D00EB9EE1 /* run_config_log */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = config_log;
-			buildConfigurationList = 5AD8F5EE17E1896D00EB9EE1 /* Build configuration list for PBXLegacyTarget "run_config_log" */;
-			buildPhases = (
-			);
-			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = "$(PROJECT)";
-			dependencies = (
-			);
-			name = run_config_log;
-			passBuildSettingsInEnvironment = 1;
-			productName = run_config_log;
-		};
-/* End PBXLegacyTarget section */
-
 /* Begin PBXNativeTarget section */
 		5A14608B17E16C4600826B74 /* skynet_xcode */ = {
 			isa = PBXNativeTarget;
@@ -561,9 +516,6 @@
 			projectRoot = "";
 			targets = (
 				5A14608B17E16C4600826B74 /* skynet_xcode */,
-				5A14609817E16C7C00826B74 /* Make */,
-				5AD8F5E917E1890F00EB9EE1 /* run_config */,
-				5AD8F5ED17E1896D00EB9EE1 /* run_config_log */,
 			);
 		};
 /* End PBXProject section */
@@ -580,7 +532,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd /work/code/github/readCode-skynet/skynet-master\nbash command.sh\n#cp -r . /Users/lyc/Library/Developer/Xcode/DerivedData/skynet_xcode-eevjgjzfbajzgedmjvwtyjwozrnw/Build/Products/Debug\n#make clean\n#make";
+			shellScript = "cd /work/code/github/readCode-skynet/skynet-master\nsh command.sh\n#cp -r . /Users/lyc/Library/Developer/Xcode/DerivedData/skynet_xcode-eevjgjzfbajzgedmjvwtyjwozrnw/Build/Products/Debug\n#make clean\n#make";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -728,69 +680,6 @@
 			};
 			name = Release;
 		};
-		5A14609A17E16C7C00826B74 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUGGING_SYMBOLS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				OTHER_CFLAGS = "-llua";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		5A14609B17E16C7C00826B74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		5AD8F5EB17E1890F00EB9EE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUGGING_SYMBOLS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		5AD8F5EC17E1890F00EB9EE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		5AD8F5EF17E1896D00EB9EE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUGGING_SYMBOLS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		5AD8F5F017E1896D00EB9EE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -808,33 +697,6 @@
 			buildConfigurations = (
 				5A14609617E16C4600826B74 /* Debug */,
 				5A14609717E16C4600826B74 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5A14609917E16C7C00826B74 /* Build configuration list for PBXLegacyTarget "Make" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A14609A17E16C7C00826B74 /* Debug */,
-				5A14609B17E16C7C00826B74 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5AD8F5EA17E1890F00EB9EE1 /* Build configuration list for PBXLegacyTarget "run_config" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5AD8F5EB17E1890F00EB9EE1 /* Debug */,
-				5AD8F5EC17E1890F00EB9EE1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5AD8F5EE17E1896D00EB9EE1 /* Build configuration list for PBXLegacyTarget "run_config_log" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5AD8F5EF17E1896D00EB9EE1 /* Debug */,
-				5AD8F5F017E1896D00EB9EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
